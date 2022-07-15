@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>innovative 2</title>
+  <style>
+  *{
+    background-color:#000000;
+  }
+  
+  #max1{
+  width:1000px; 
+  height:1000px; 
+  position:relative;
+  top:500px;
+  left:70px;
+  border:60px;
+  border-style:solid;
+  border-right-color:white;
+  border-left-color:orange;
+  border-top-color: red;
+  border-bottom-color:green;
+  margin:50px; 
+  padding:0px;
+  background-color:#000000;
+  border-radius:100%;
+  animation-name:example1;
+  animation-duration: 0.2s;
+  animation-timing-function:linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+      @keyframes example1{
+      0%{ 
+        border-right-color:white;
+        border-left-color:orange ;
+        border-top-color:red ;
+        border-bottom-color:green;
+        }
+        
+      25%{  
+        border-right-color:green;
+        border-left-color:red ;
+        border-top-color:white ;
+        border-bottom-color:orange ;
+        
+      }
+      50%{
+        border-right-color:orange;
+        border-left-color:white ;
+        border-top-color:green ;
+        border-bottom-color:red ;
+      }
+      75%{  
+        border-right-color:red;
+        border-left-color:green ;
+        border-top-color:orange ;
+        border-bottom-color:white ;}
+      100%{  
+        border-right-color:white;
+        border-left-color: orange;
+        border-top-color:red ;
+        border-bottom-color: green ;}
+  }  
+</style>
+</head>
+
+<body> 
+<div id="max1"> </div>
+
+
+</body>
+
+</html>
